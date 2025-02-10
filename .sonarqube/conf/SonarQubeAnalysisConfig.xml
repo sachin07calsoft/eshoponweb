@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SonarQubeAnalysisConfig>
+  <SonarQubeServer>
+    <!-- URL of your SonarQube server -->
+    <url>http://54.167.64.115:9000/</url>
+    <!-- Optional: Authentication Token for SonarQube -->
+    <token>squ_c3d1430e660cfe39846c07ff6db0903c4a8ed8ab</token>
+  </SonarQubeServer>
+
+  <ProjectSettings>
+    <!-- Unique key for your SonarQube project -->
+    <key>eShopOnWeb</key>
+    <!-- Project name displayed in SonarQube -->
+    <name>eShopOnWeb</name>
+    <!-- Project version -->
+    <version>1.0</version>
+    <!-- Language of the project, e.g., "cs" for C# -->
+    <language>cs</language>
+  </ProjectSettings>
+
+  <CodeCoverage>
+    <!-- Define the code coverage report location if using a coverage tool like OpenCover or Visual Studio Code Coverage -->
+    <reportPaths>**/coverage.opencover.xml</reportPaths>
+  </CodeCoverage>
+
+  <Sources>
+    <!-- Path to your source code folder -->
+    <path>src</path>
+  </Sources>
+
+  <Tests>
+    <!-- Path to the folder with test results -->
+    <path>TestResults</path>
+  </Tests>
+
+
